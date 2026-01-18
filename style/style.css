@@ -1,0 +1,222 @@
+
+.inter-font> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.color-primary{
+    color: linear-gradient(47.64deg, rgba(247, 233, 63, 1) 16.531%,rgba(251, 9, 180, 1) 49.819%,rgba(145, 0, 248, 1) 81.648%);
+}
+
+header{
+    background-color: #1A0B2E;
+}
+
+nav{
+    width: 1600px;
+    height: 92px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+   
+}
+
+nav .menu{
+
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    list-style-type: none;
+    gap: 32px;
+    margin:0 auto;
+    width: 13%;
+    max-width: 400px;
+}
+
+nav .menu a{
+    
+    font-style: Medium;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 152%;
+    text-decoration: none;
+    color: #FFFFFF;
+   
+}
+
+nav .button {
+   
+    margin-right: 200px;
+    border-radius:  10000px;    
+    background: linear-gradient(47.64deg, rgba(247, 233, 63, 1) 16.531%,rgba(251, 9, 180, 1) 49.819%,rgba(145, 0, 248, 1) 81.648%);
+    width: 165px;
+    
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 10px ;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer ;
+
+}
+
+
+/* nav .button{
+     margin-right: 150px;
+    border-radius:  10000px;    
+    background: linear-gradient(47.64deg, rgba(247, 233, 63, 1) 16.531%,rgba(251, 9, 180, 1) 49.819%,rgba(145, 0, 248, 1) 81.648%);
+
+   list-style-type: none;
+   border: none;
+} */
+
+
+.btn{
+    background-color: aqua;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10000px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-align: center;
+
+
+}
+
+.btn1{
+    background:none;
+    border: 1px solid #00FF88;
+    padding: 12px 20px;
+    border-radius: 10000px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-align: center;
+    color: #00FF88;
+    margin-top: 24px;
+   
+}
+
+
+
+#banner{
+    border: 2px solid red;
+    background-image: url(../assets/hero-bg.png);
+    width: 1600px;
+    height: 760px;
+}
+
+#banner .bannerall{
+    border: 1px solid #0800ff;
+    width: 550px;
+    height: 560px;
+    margin: 100px 525px;
+}
+
+#banner .bannerall .banner-image img{
+    border: 1px solid salmon;
+    width: 350px;
+    height: 350px;
+    margin-left: 100px;
+
+} 
+
+
+
+
+
+#banner .banner-containt{
+    border: 2px solid greenyellow;
+    width: 550px;
+    height: 170px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#banner .banner-containt h2{
+    font-size: 60px;
+    font-weight: 800;
+}
+
+#about{
+    border: 1px solid orange;
+    width: 1600px;
+    height: 646px;
+}
+.about-text{
+    border: 1px solid tomato;
+    width: 1200px;
+    height: 222px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 50px;
+}
+.about-text h2{
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+.about-text p{
+    font-size: 16px;
+    line-height: 1.8;
+}
+.big{
+    display: block;
+    margin-top: 2rem;
+}
+
+.about-num{
+    border: 1px solid aqua;
+     width: 1200px;
+    height: 94px;
+    margin-top: 160px;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr) ;
+    text-align: center;
+
+}
+.about-num h2{
+    color: #00FF88;
+    font-size: 48px;
+}
+.about-num p{
+    color: #FFFFFF;
+}
+
+#choose{
+    border:  1px solid gold;
+    width: 1600px;
+    height: 1121px;
+}
+.card{
+    border: 1px solid silver;
+    width: 1200px;
+    height: 783px;
+    margin: 220px auto;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 150px);
+       
+}
