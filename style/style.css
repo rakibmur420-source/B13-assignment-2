@@ -10,10 +10,6 @@
     box-sizing: border-box;
 }
 
-.color-primary{
-    color: linear-gradient(47.64deg, rgba(247, 233, 63, 1) 16.531%,rgba(251, 9, 180, 1) 49.819%,rgba(145, 0, 248, 1) 81.648%);
-}
-
 header{
     background-color: #1A0B2E;
 }
@@ -53,7 +49,7 @@ nav .menu a{
    
 }
 
-nav .button {
+/* nav .button {
    
     margin-right: 200px;
     border-radius:  10000px;    
@@ -76,7 +72,7 @@ nav .button {
     border: none;
     cursor: pointer ;
 
-}
+} */
 
 
 /* nav .button{
@@ -87,10 +83,18 @@ nav .button {
    list-style-type: none;
    border: none;
 } */
+ .beautifull{
+    color: linear-gradient( 47.64deg,
+    rgba(247, 233, 63, 1) 16.531%,
+    rgba(251, 9, 180, 1) 49.819%,
+    rgba(145, 0, 248, 1) 81.648%);
+ }
 
 
 .btn{
-    background-color: aqua;
+    background: linear-gradient( 47.64deg,rgba(247, 233, 63, 1) 16.531%,
+    rgba(251, 9, 180, 1) 49.819%,
+     rgba(145, 0, 248, 1) 81.648%);
     border: none;
     padding: 12px 20px;
     border-radius: 10000px;
@@ -101,6 +105,10 @@ nav .button {
     text-align: center;
 
 
+}
+.btn img{
+    width: 15px;
+    height:15px;
 }
 
 .btn1{
@@ -134,14 +142,20 @@ nav .button {
     margin: 100px 525px;
 }
 
-#banner .bannerall .banner-image img{
+#banner .bannerall .banner-image {
+    background-image: url(../assets/hero-circle.png);
     border: 1px solid salmon;
     width: 350px;
     height: 350px;
     margin-left: 100px;
 
 } 
-
+#banner .bannerall .banner-image img{
+    border: 1px solid gold;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 115px;
+}
 
 
 
@@ -286,9 +300,14 @@ nav .button {
 }
 .episode{
     width: 1200px;
-    height: 440px;
-    
+    height: 540px;
+    margin-top: 120px;
     border: 1px solid red;
+}
+.episode .vedio{
+    width: 1200px;
+    height: 538px;
+    border: 1px solid orange;
 }
 
 .wide-host{
