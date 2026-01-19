@@ -141,11 +141,10 @@ nav .menu a{
 
 #banner .bannerall .banner-image {
     background-image: url(../assets/hero-circle.png);
-    
-    width: 350px;
+    background-repeat: no-repeat;
+    width:  350px;
     height: 350px;
     
-    border:  1px solid red;
 } 
 #banner .bannerall .banner-image img{
    
@@ -177,12 +176,12 @@ nav .menu a{
 }
 
 #banner .banner-containt{
-   
+  
     width: 550px;
     height: 170px;
     color: #FFFFFF;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 120px;
 }
 
 #banner .banner-containt h2{
@@ -277,7 +276,7 @@ nav .menu a{
          border-radius: 40px;
               background-color: rgba(255, 255, 255, 0.034);
            padding: 40px;
-         box-shadow: #351165;
+        
         
     }
     .text1{
@@ -346,7 +345,6 @@ nav .menu a{
     
 }
 .vedio-card{
-    box-shadow: #351165;
     height: 500px;
     display: grid;
     gap: 15px;
@@ -359,8 +357,8 @@ nav .menu a{
     border-radius: 20px;
     gap: 15px;
     color: #FFFFFF;
-    box-shadow: #6e0bf0;
-    border: 1px solid green;
+     background-color: rgba(255, 255, 255, 0.034);
+    
     
 }
 .the{
@@ -697,8 +695,7 @@ nav .btn{
     border-radius: 20px;
     gap: 15px;
     color: #FFFFFF;
-    box-shadow: #6e0bf0;
-    border: 1px solid green;
+    
     
 }
 .wide-host{
