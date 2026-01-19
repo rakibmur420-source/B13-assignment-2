@@ -219,7 +219,7 @@ nav .menu a{
 }
 
 #choose{
-    border:  1px solid gold;
+    
     width: 1600px;
     height: 1121px;
 }
@@ -233,7 +233,7 @@ nav .menu a{
      padding: 40px;
      border-radius: 40px;
      background-color: rgba(255, 255, 255, 0.034);
-    border: 1px solid gold;
+    
 }
 
 .normal-card{
@@ -245,7 +245,7 @@ nav .menu a{
     padding: 40px;
     border-radius: 40px;
     background-color: rgba(255, 255, 255, 0.034);
-    border: 1px solid gold;
+    
 }
 
     .wide-card{
@@ -258,7 +258,7 @@ nav .menu a{
               background-color: rgba(255, 255, 255, 0.034);
            padding: 40px;
          box-shadow: #351165;
-        border: 1px solid gold;
+        
     }
     .text1{
     display: block;
@@ -275,10 +275,10 @@ nav .menu a{
        margin-top: 100px;
        font-size: 1.8rem;
        text-align: center;
-        border:1px solid #00FF88;
+        
     }
 .card{
-    border: 1px solid silver;
+    
     width: 1200px;
     height: 783px;
     margin: 40px auto;
@@ -292,29 +292,64 @@ nav .menu a{
     color: #FFFFFF;
     
 }
+.imgc{
+    width: 100px;
+    height: 20px;
+    gap: 5px;
+    display: flex;
+    margin-left: 10px;
+    border: 1px solid;
+}
 
 #feature{
     width: 1600px;
     height: 1275px;
     border:  1px solid silver;
 }
+.episode h2{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
 .episode{
     width: 1200px;
     height: 540px;
     margin-top: 120px;
-    border: 1px solid red;
+    
 }
-.episode .vedio{
-    width: 1200px;
-    height: 538px;
-    border: 1px solid orange;
+.vedio-card{
+    box-shadow: #351165;
+    
+    height: 500px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3,1fr);
+   
 }
+.vedio{
+    width: 380px;
+    height: 500px;
+    border-radius: 20px;
+    gap: 15px;
+    color: #FFFFFF;
+    box-shadow: #6e0bf0;
+    border: 1px solid green;
+    
+}
+.the{
+    color: #FFFFFF;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 10rem;
+}
+
 
 .wide-host{
        
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        margin-top: 30rem;
+        margin-top: 2rem;
          width: 1200px;
          height: 220px;
          border-radius: 30px;
