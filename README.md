@@ -25,5 +25,13 @@ No external libraries or frameworks are used in this project.
  Clone the repository:
 git clone https://github.com/your-username/B13-assignment-2.git
 
+
+## Relevant Links
+ live link: https://rakibmur420-source.github.io/B13-assignment-2/
+ git repo link: https://github.com/rakibmur420-source?tab=repositories
+
 ##  Screenshot
-![Project Screenshot](./screenshot.png)
+
+<img width="1336" height="846" alt="Screenshot 2026-04-09 153500" src="https://github.com/user-attachments/assets/dcb2fc9f-f5e3-43ce-9dfe-e6163d1cb3d4" />
+<img width="1328" height="830" alt="Screenshot 2026-04-09 153444" src="https://github.com/user-attachments/assets/6ca4dc6d-5ec6-4e06-8a22-c8a2f022990b" />
+<img width="1864" height="851" alt="Screenshot 2026-04-09 153405" src="https://github.com/user-attachments/assets/3693763b-6f9b-4d18-ab95-52239d39688d" />
